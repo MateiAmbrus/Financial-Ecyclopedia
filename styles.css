@@ -1,0 +1,194 @@
+*{
+    font-family: 'Playfair Display', serif;
+    
+}
+body{
+    background-image: url(img/currency-pattern.d86d2ca.png);
+    background-repeat: repeat;
+}
+.text{
+    box-shadow: 10px 10px black;
+    background-image: url(img/card-pattern.png),
+     linear-gradient(270deg,#e0d1c1,#e0d9c6 10%,#e8e6ba 65%,#e4e6b2);
+    width: 70%;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+ul{
+    list-style-type:"$";
+}
+ul li::marker {
+    font-weight: bold;
+  }
+.banks, .insurance, .investments, .real-estate, .the-state{
+    margin-bottom: 100px;
+}
+.row{
+    width:70%;
+    margin:30px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.h1-content{
+    box-shadow:10px 10px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url(img/card-pattern.png),linear-gradient(210deg,#e0d1c1,#e0d9c6 10%,#e8e6ba 65%,#e4e6b2);
+    background-position: 50%;
+    background-repeat: repeat;
+    margin-bottom:100px;
+}
+h1{
+    font-family: 'Engravers MT',sans-serif;
+    text-align: center;
+    font-size: 32px;
+    margin: 20px 0;
+}
+h2, h3{
+    text-align: center;
+    font-family: 'Engravers MT',sans-serif;
+}
+h3{
+    margin: 10px 0px;
+    text-align: center;
+    padding-bottom: 0px;
+}
+.col-1{
+    display:flex;
+    justify-content: center;
+    
+
+}
+.col-2:not(.separate){
+    transition:0.5s;
+    flex-basis:45%;
+    box-shadow: 10px 10px black;
+    border-radius:10px;
+    background-image: url(img/card-pattern.png), 
+    linear-gradient(210deg,#a5d5cc,#c7df9f 45%,#84d598);
+    overflow: hidden;
+    margin-bottom: 2.5rem;
+
+}
+.separate{
+    transition:0.5s;
+    flex-basis:45%;
+}
+.col-3{
+    flex-basis:32%;
+    box-shadow:10px 10px black;
+    border-radius:10px;
+    background-image: url(img/card-pattern.png), 
+    linear-gradient(210deg,#a5d5cc,#c7df9f 45%,#84d598);
+    margin-bottom:2.5rem;
+    overflow: hidden;
+}
+.col-1 ul li, .col-2 ul li {
+    font-size: 20px;
+    font-weight: 500;
+}
+p{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+    font-size: 20px;
+    text-align: justify;
+    font-weight:500;
+}
+hr{
+    width: 20%;
+    margin: auto;
+    border-style: solid;
+    border-color: black;
+}
+.single-list{
+    border-radius: 10px;
+    box-shadow: 10px 10px black;
+    overflow: hidden;
+    width: 20%;
+    min-width: 256px;
+    margin: auto;
+    background-image: url(img/card-pattern.png), 
+    linear-gradient(210deg,#a5d5cc,#c7df9f 45%,#84d598);
+}
+
+/* Responsive Layouts */
+@media (min-width:200px){
+    .container{
+        max-width:475px;
+    }
+    .row{
+        display: block;
+    }
+
+}
+/* xs */
+@media (min-width: 475px) {
+    .container{
+        max-width:475px;
+    }
+    .row{
+        display:block;
+    }
+}
+
+/* sm */
+@media (min-width: 640px) {
+    .container{
+        max-width:640px;
+    }
+    .row{
+        display:block;
+    }
+}
+
+/* md */
+@media (min-width: 768px) {
+    .container{
+        max-width:768px;
+    }
+    .row{
+        display:block;
+    }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+    .container{
+        max-width:1024px;
+    }
+    .row{
+        display: flex;
+    }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+    .container{
+        max-width:1280px;
+    }
+    .row{
+        display: flex;
+    }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+    .container{
+        max-width:1536px;
+    }
+    .row{
+        display: flex;
+    }
+}
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  /* padding-left: 0.5rem;
+  padding-right: 0.5rem; */
+}
